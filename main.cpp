@@ -105,11 +105,10 @@ int main() {
     } else {
         a = aaa(a);
     }
-    std::cout << a << std::endl;
     if (a == b) {
-        std::cout << A;
+        std::cout << A << std::endl;
     } else {
-        std::cout << B;
+        std::cout << B << std::endl;
     }
     return 0;
 }
