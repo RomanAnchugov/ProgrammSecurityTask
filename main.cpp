@@ -105,6 +105,9 @@ int main() {
     } else {
         a = aaa(a);
     }
+    for (char &i: a) {
+        i = abs(i) % (int)'z';
+    }
     if (a == b) {
         std::cout << A << std::endl;
     } else {
